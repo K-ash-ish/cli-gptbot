@@ -1,0 +1,22 @@
+{
+  "name": "gpt-cbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gpt-cbot":"index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.1",
+    "inquirer": "^8.2.4",
+    "nanospinner": "^1.1.0",
+    "openai": "^3.3.0"
+  }
+}
