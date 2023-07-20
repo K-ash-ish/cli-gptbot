@@ -23,7 +23,9 @@ const gptResponse = async (message) => {
     spinner.success();
     return completion.data.choices[0].message.content;
   } catch (error) {
-    console.error(error);
+    // console.error("error");
+    console.log(chalk.redBright("Something went wrong"));
+    process.exit(0);
   }
 };
 const yourResponse = () => {
