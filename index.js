@@ -9,6 +9,7 @@ const spinner = createSpinner();
 
 const configuration = new Configuration({
   apiKey: process.env.API_KEY,
+  // replace this with your own OpenAI API
 });
 
 const openai = new OpenAIApi(configuration);
